@@ -11,7 +11,7 @@ function Navbar() {
                 <div>
                     <ul>
                         <li><Link to='/home'>Home</Link></li>
-                        <li><Link to='/about'>About</Link></li>
+                        <li><Link to='/about'>About us</Link></li>
                         <li><Link to='/contact'>Contact Us</Link></li>
                         <li>
                             <div className="dropdown">
