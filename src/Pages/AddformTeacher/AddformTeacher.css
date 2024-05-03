@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Container for the form */
+.form-container {
+    width: 50%; /* Adjust width as needed */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* Allow fields to wrap onto the next line */
+    justify-content: space-between; /* Add space between fields */
+  }
+  
+  /* Style for each form field */
+  .form-container div {
+    width: 48%; /* Each field takes up almost half of the container */
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
+  
+  /* Label styles */
+  .form-container label {
+    display: block; /* Labels on new line */
+    margin-bottom: 5px; /* Add space between labels and inputs */
+    font-size: 16px; /* Increase font size for labels */
+  }
+  
+  /* Input styles */
+  .form-container input,
+  .form-container select {
+    width: calc(100% - 5px); /* Adjust width and consider spacing */
+    font-size: 16px; /* Increase font size for inputs */
+    padding: 8px; /* Add padding for inputs */
+    border-radius: 4px; /* Add border radius for inputs */
+    border: 1px solid #ccc; /* Add border for inputs */
+  }
+  
+  /* Error message styles */
+  .error {
+    color: red;
+  }
+  
+  /* Mandatory symbol styles */
+  .mandatory {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  /* Submit button styles */
+  .submit-button {
+    width: 100%; /* Button takes up full width */
+    text-align: center; /* Center the button */
+    margin-top: 20px; /* Add space above the button */
+  }
+  
+  .submit-button button {
+    font-size: 18px; /* Increase font size for the button */
+    padding: 10px 20px; /* Add padding for the button */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add border radius for the button */
+    cursor: pointer; /* Add cursor pointer on hover */
+  }
+  
+  .submit-button button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  .popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-container {
+    position: fixed;
+    top: 20px; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999; /* Ensure the popup appears on top of other content */
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .popup p {
+    margin: 0;
+  }
+  
+  

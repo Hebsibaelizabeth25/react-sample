@@ -1,0 +1,37 @@
+.admin-container{
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    text-align: left;
+}
+.datatable{
+    text-align: center;
+    padding-left: 340px;
+    margin-top: 10px;
+    display: block;
+}
+.datatable {
+    width: 80%; /* Table width */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+.datatable th, .datatable td {
+    border: 1px solid #ddd; /* Add border to table cells */
+    padding: 8px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left within cells */
+}
+
+.datatable th {
+    background-color: #f2f2f2; /* Header background color */
+}
+
+.datatable tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+.datatable tr:hover {
+    background-color: #f2f2f2; /* Row background color on hover */
+}
+.datatable {
+    max-height: 80vh; /* Set a fixed height for the container */
+    overflow-y: auto; /* Enable vertical scrollbar */
+}

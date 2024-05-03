@@ -1,0 +1,22 @@
+#overall-about {
+  text-align: center; 
+  background-color: azure;
+}
+
+#about {
+  display: flex;
+  justify-content: center; /* Center the flex items horizontally */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 30px; /* Add space between sections */
+}
+
+.about-content {
+  width: 50%; /* Set content width to 50% */
+  text-align: left; /* Align text to the left */
+}
+
+.about-image {
+  width: 50%; /* Set image width to 50% */
+  max-width: 400px; /* Limit maximum image width */
+  margin: 0 20px; /* Add margins to images */
+}

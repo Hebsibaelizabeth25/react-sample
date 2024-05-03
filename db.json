@@ -1,0 +1,4254 @@
+{
+  "teachers": [
+    {
+      "id": "0T1",
+      "firstName": "Emily",
+      "lastName": "Jones",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "123 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+916543445208",
+        "secondary": "+912858063078"
+      },
+      "email": "emily.jones@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1976-09-07",
+      "class": "Class 9",
+      "coreSubject": "History",
+      "experience": "3 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 44941
+      }
+    },
+    {
+      "id": "0T2",
+      "firstName": "Sophia",
+      "lastName": "Williams",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "456 Oak Avenue,Nj ,chennai-32",
+      "phone": {
+        "primary": "+911130190508",
+        "secondary": "+912322810853"
+      },
+      "email": "sophia.williams@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1980-02-15",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "16 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 59846
+      }
+    },
+    {
+      "id": "0T3",
+      "firstName": "Ethan",
+      "lastName": "Brown",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "789 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+911749335678",
+        "secondary": "+916644905149"
+      },
+      "email": "ethan.brown@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1978-11-28",
+      "class": "Class 10",
+      "coreSubject": "Mathematics",
+      "experience": "8 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 50478
+      }
+    },
+    {
+      "id": "0T4",
+      "firstName": "Olivia",
+      "lastName": "Davis",
+      "gender": "female",
+      "qualification": "B.Sc Physics",
+      "address": "321 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+915830740329",
+        "secondary": "+916158943918"
+      },
+      "email": "olivia.davis@example.com",
+      "maritalStatus": "divorced",
+      "D.O.B": "1982-07-10",
+      "class": "Class 11",
+      "coreSubject": "Physical Education",
+      "experience": "7 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 65572
+      }
+    },
+    {
+      "id": "0T5",
+      "firstName": "Ava",
+      "lastName": "Martinez",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "567 Maple Drive, Willow, TX",
+      "phone": {
+        "primary": "+910789205715",
+        "secondary": "+913565845445"
+      },
+      "email": "ava.martinez@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1975-04-22",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "7 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 60103
+      }
+    },
+    {
+      "id": "0T6",
+      "firstName": "Mia",
+      "lastName": "Garcia",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "890 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+919031023490",
+        "secondary": "+915749512759"
+      },
+      "email": "mia.garcia@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1979-12-05",
+      "class": "Class 12",
+      "coreSubject": "History",
+      "experience": "7 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 76364
+      }
+    },
+    {
+      "id": "0T7",
+      "firstName": "Charlotte",
+      "lastName": "Rodriguez",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "678 Pine Avenue, Boulder, CO",
+      "phone": {
+        "primary": "+914312509249",
+        "secondary": "+918576239175"
+      },
+      "email": "charlotte.rodriguez@example.com",
+      "maritalStatus": "divorced",
+      "D.O.B": "1984-08-17",
+      "class": "Class 10",
+      "coreSubject": "Mathematics",
+      "experience": "6 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 59567
+      }
+    },
+    {
+      "id": "0T8",
+      "firstName": "Amelia",
+      "lastName": "Lopez",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "345 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+912459232569",
+        "secondary": "+917098647392"
+      },
+      "email": "amelia.lopez@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1983-02-28",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "11 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 69104
+      }
+    },
+    {
+      "id": "0T9",
+      "firstName": "Liam",
+      "lastName": "Hernandez",
+      "gender": "male",
+      "qualification": "B.Sc Chemistry",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+916531789402",
+        "secondary": "+911539028745"
+      },
+      "email": "liam.hernandez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1977-06-20",
+      "class": "Class 9",
+      "coreSubject": "Physical Education",
+      "experience": "9 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 57280
+      }
+    },
+    {
+      "id": "0T10",
+      "firstName": "Emma",
+      "lastName": "Gonzalez",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "567 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917348902345",
+        "secondary": "+919839457612"
+      },
+      "email": "emma.gonzalez@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1979-03-12",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "12 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 61783
+      }
+    },
+    {
+      "id": "0T11",
+      "firstName": "Oliver",
+      "lastName": "Perez",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "234 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+914720309823",
+        "secondary": "+914590823054"
+      },
+      "email": "oliver.perez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1981-05-29",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "8 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 52367
+      }
+    },
+    {
+      "id": "0T12",
+      "firstName": "William",
+      "lastName": "Turner",
+      "gender": "male",
+      "qualification": "B.Sc Biology",
+      "address": "890 Maple Drive, Willow, TX",
+      "phone": {
+        "primary": "+916539408325",
+        "secondary": "+919780239475"
+      },
+      "email": "william.turner@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1976-10-18",
+      "class": "Class 11",
+      "coreSubject": "Geography",
+      "experience": "5 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 53678
+      }
+    },
+    {
+      "id": "0T13",
+      "firstName": "Isabella",
+      "lastName": "Scott",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+914032987652",
+        "secondary": "+915890237645"
+      },
+      "email": "isabella.scott@example.com",
+      "maritalStatus": "divorced",
+      "D.O.B": "1983-07-26",
+      "class": "Class 12",
+      "coreSubject": "Mathematics",
+      "experience": "14 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 69420
+      }
+    },
+    {
+      "id": "0T14",
+      "firstName": "Lucas",
+      "lastName": "Hall",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "345 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+914907853290",
+        "secondary": "+918762039582"
+      },
+      "email": "lucas.hall@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1982-12-30",
+      "class": "Class 10",
+      "coreSubject": "Science",
+      "experience": "9 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 72096
+      }
+    },
+    {
+      "id": "0T15",
+      "firstName": "Mason",
+      "lastName": "Young",
+      "gender": "male",
+      "qualification": "B.A History",
+      "address": "678 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+919478293049",
+        "secondary": "+918576290347"
+      },
+      "email": "mason.young@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1978-08-14",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "6 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 54982
+      }
+    },
+    {
+      "id": "0T16",
+      "firstName": "Harper",
+      "lastName": "King",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917548293048",
+        "secondary": "+918762039582"
+      },
+      "email": "harper.king@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1985-06-23",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "8 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 60893
+      }
+    },
+    {
+      "id": "0T17",
+      "firstName": "Evelyn",
+      "lastName": "Wright",
+      "gender": "female",
+      "qualification": "B.Sc Chemistry",
+      "address": "345 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918476293049",
+        "secondary": "+917593620347"
+      },
+      "email": "evelyn.wright@example.com",
+      "maritalStatus": "divorced",
+      "D.O.B": "1980-04-19",
+      "class": "Class 12",
+      "coreSubject": "Physical Education",
+      "experience": "10 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 65478
+      }
+    },
+    {
+      "id": "0T18",
+      "firstName": "Michael",
+      "lastName": "Lopez",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "678 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+916549783290",
+        "secondary": "+917432690347"
+      },
+      "email": "michael.lopez@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1977-12-05",
+      "class": "Class 9",
+      "coreSubject": "Mathematics",
+      "experience": "13 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 72683
+      }
+    },
+    {
+      "id": "0T19",
+      "firstName": "Abigail",
+      "lastName": "Hill",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "890 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502903481",
+        "secondary": "+915823907456"
+      },
+      "email": "abigail.hill@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1981-10-28",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "11 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 67549
+      }
+    },
+    {
+      "id": "0T20",
+      "firstName": "Alexander",
+      "lastName": "Baker",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "345 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+914762903847"
+      },
+      "email": "alexander.baker@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1979-03-14",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "7 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 59834
+      }
+    },
+    {
+      "id": "0T21",
+      "firstName": "Daniel",
+      "lastName": "Gonzalez",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "678 Pine Avenue, Boulder, CO",
+      "phone": {
+        "primary": "+917489203874",
+        "secondary": "+918470239487"
+      },
+      "email": "daniel.gonzalez@example.com",
+      "maritalStatus": "divorced",
+      "D.O.B": "1983-09-17",
+      "class": "Class 12",
+      "coreSubject": "Mathematics",
+      "experience": "15 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 77432
+      }
+    },
+    {
+      "id": "0T22",
+      "firstName": "Madison",
+      "lastName": "Nelson",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+914750293847",
+        "secondary": "+915720394857"
+      },
+      "email": "madison.nelson@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1982-01-25",
+      "class": "Class 10",
+      "coreSubject": "Science",
+      "experience": "10 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 71854
+      }
+    },
+    {
+      "id": "0T23",
+      "firstName": "James",
+      "lastName": "Carter",
+      "gender": "male",
+      "qualification": "B.A History",
+      "address": "567 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917389204857",
+        "secondary": "+918570293487"
+      },
+      "email": "james.carter@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1976-04-05",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "9 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 54589
+      }
+    },
+    {
+      "id": "0T24",
+      "firstName": "Charlotte",
+      "lastName": "Mitchell",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "678 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+918573902847",
+        "secondary": "+917239487502"
+      },
+      "email": "charlotte.mitchell@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1984-11-30",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "8 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 62103
+      }
+    },
+    {
+      "id": "0T25",
+      "firstName": "Benjamin",
+      "lastName": "Perez",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "345 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+915723984723",
+        "secondary": "+914750293847"
+      },
+      "email": "benjamin.perez@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1978-06-12",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "11 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 71984
+      }
+    },
+    {
+      "id": "0T26",
+      "firstName": "Evelyn",
+      "lastName": "Gonzalez",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917549283740"
+      },
+      "email": "evelyn.gonzalez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1980-09-29",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "12 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 68894
+      }
+    },
+    {
+      "id": "0T27",
+      "firstName": "Avery",
+      "lastName": "Roberts",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "678 Pine Avenue, Boulder, CO",
+      "phone": {
+        "primary": "+915729384750",
+        "secondary": "+918574902384"
+      },
+      "email": "avery.roberts@example.com",
+      "maritalStatus": "divorced",
+      "D.O.B": "1982-12-22",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "13 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 63749
+      }
+    },
+    {
+      "id": "0T28",
+      "firstName": "Scarlett",
+      "lastName": "Cook",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+917594287390",
+        "secondary": "+915720394857"
+      },
+      "email": "scarlett.cook@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1977-11-17",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "14 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 74903
+      }
+    },
+    {
+      "id": "0T29",
+      "firstName": "Riley",
+      "lastName": "Bailey",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "345 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "riley.bailey@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1975-10-25",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "9 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 69347
+      }
+    },
+    {
+      "id": "0T30",
+      "firstName": "Layla",
+      "lastName": "Gonzalez",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "layla.gonzalez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1986-03-19",
+      "class": "Class 11",
+      "coreSubject": "Physical Education",
+      "experience": "8 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 56349
+      }
+    },
+    {
+      "id": "0T31",
+      "firstName": "Noah",
+      "lastName": "Ward",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "789 Maple Drive, Willow, TX",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "noah.ward@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1979-08-03",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "10 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 70983
+      }
+    },
+    {
+      "id": "0T32",
+      "firstName": "Grace",
+      "lastName": "Foster",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "567 Pine Avenue, Boulder, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "grace.foster@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1981-01-14",
+      "class": "Class 10",
+      "coreSubject": "Mathematics",
+      "experience": "11 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 62457
+      }
+    },
+    {
+      "id": "0T33",
+      "firstName": "Zoey",
+      "lastName": "Gomez",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "890 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "zoey.gomez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1982-05-07",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "12 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 69758
+      }
+    },
+    {
+      "id": "0T34",
+      "firstName": "Aaron",
+      "lastName": "Russell",
+      "gender": "male",
+      "qualification": "B.Sc Biology",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "aaron.russell@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1978-09-19",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "13 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 74205
+      }
+    },
+    {
+      "id": "0T35",
+      "firstName": "Sophie",
+      "lastName": "Sullivan",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "567 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "sophie.sullivan@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1980-02-23",
+      "class": "Class 9",
+      "coreSubject": "Physical Education",
+      "experience": "14 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 58236
+      }
+    },
+    {
+      "id": "0T36",
+      "firstName": "Jackson",
+      "lastName": "Price",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "890 Pine Avenue, Boulder, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "jackson.price@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1976-11-15",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "15 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 76432
+      }
+    },
+    {
+      "id": "0T37",
+      "firstName": "Lily",
+      "lastName": "Ramirez",
+      "gender": "female",
+      "qualification": "B.Sc Physics",
+      "address": "901 Oak Street, Maplewood, NJ",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "lily.ramirez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1984-06-30",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "16 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 73019
+      }
+    },
+    {
+      "id": "0T38",
+      "firstName": "Lucy",
+      "lastName": "Harris",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "lucy.harris@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1977-03-25",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "17 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 78563
+      }
+    },
+    {
+      "id": "0T39",
+      "firstName": "Grayson",
+      "lastName": "Jenkins",
+      "gender": "male",
+      "qualification": "B.A History",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "grayson.jenkins@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1975-12-18",
+      "class": "Class 9",
+      "coreSubject": "History",
+      "experience": "18 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 56982
+      }
+    },
+    {
+      "id": "0T40",
+      "firstName": "Chloe",
+      "lastName": "Perry",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "890 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "chloe.perry@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1982-09-12",
+      "class": "Class 10",
+      "coreSubject": "Mathematics",
+      "experience": "19 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 69673
+      }
+    },
+    {
+      "id": "0T41",
+      "firstName": "Lincoln",
+      "lastName": "Long",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "lincoln.long@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1978-04-09",
+      "class": "Class 11",
+      "coreSubject": "Physical Education",
+      "experience": "20 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 82056
+      }
+    },
+    {
+      "id": "0T42",
+      "firstName": "Hailey",
+      "lastName": "Flores",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "hailey.flores@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1980-07-22",
+      "class": "Class 12",
+      "coreSubject": "Geography",
+      "experience": "21 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 59204
+      }
+    },
+    {
+      "id": "0T43",
+      "firstName": "Mateo",
+      "lastName": "Simmons",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "mateo.simmons@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1979-02-13",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "22 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 70984
+      }
+    },
+    {
+      "id": "0T44",
+      "firstName": "Aria",
+      "lastName": "Stewart",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "890 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "aria.stewart@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1981-05-18",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "23 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 64782
+      }
+    },
+    {
+      "id": "0T45",
+      "firstName": "Christopher",
+      "lastName": "Bell",
+      "gender": "male",
+      "qualification": "B.A English",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "christopher.bell@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1977-08-27",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "24 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 83249
+      }
+    },
+    {
+      "id": "0T46",
+      "firstName": "Mila",
+      "lastName": "Rivera",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "567 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "mila.rivera@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1982-11-05",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "25 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 72105
+      }
+    },
+    {
+      "id": "0T47",
+      "firstName": "Logan",
+      "lastName": "Cruz",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "logan.cruz@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1975-02-02",
+      "class": "Class 9",
+      "coreSubject": "Physical Education",
+      "experience": "26 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 60934
+      }
+    },
+    {
+      "id": "0T48",
+      "firstName": "Aubrey",
+      "lastName": "Parker",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "aubrey.parker@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1978-06-09",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "27 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 73982
+      }
+    },
+    {
+      "id": "0T49",
+      "firstName": "Eli",
+      "lastName": "Gomez",
+      "gender": "male",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "eli.gomez@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1980-10-14",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "28 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 85673
+      }
+    },
+    {
+      "id": "0T50",
+      "firstName": "Aurora",
+      "lastName": "Evans",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "aurora.evans@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1981-11-29",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "29 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 66684
+      }
+    },
+    {
+      "id": "0T51",
+      "firstName": "Luna",
+      "lastName": "Morales",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "luna.morales@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1982-04-15",
+      "class": "Class 9",
+      "coreSubject": "Physical Education",
+      "experience": "30 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 72983
+      }
+    },
+    {
+      "id": "0T52",
+      "firstName": "Jackson",
+      "lastName": "Reed",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "jackson.reed@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1979-09-18",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "31 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 68249
+      }
+    },
+    {
+      "id": "0T53",
+      "firstName": "Penelope",
+      "lastName": "Cook",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "penelope.cook@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1980-12-03",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "32 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 81173
+      }
+    },
+    {
+      "id": "0T54",
+      "firstName": "Jack",
+      "lastName": "Morgan",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "jack.morgan@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1978-07-26",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "33 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 74902
+      }
+    },
+    {
+      "id": "0T55",
+      "firstName": "Sophie",
+      "lastName": "Cooper",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "sophie.cooper@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1981-02-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "34 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 71102
+      }
+    },
+    {
+      "id": "0T56",
+      "firstName": "Eliana",
+      "lastName": "Ward",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "eliana.ward@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1982-05-31",
+      "class": "Class 10",
+      "coreSubject": "Mathematics",
+      "experience": "35 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 77745
+      }
+    },
+    {
+      "id": "0T57",
+      "firstName": "Levi",
+      "lastName": "Bennett",
+      "gender": "male",
+      "qualification": "B.Sc Biology",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "levi.bennett@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1983-08-29",
+      "class": "Class 11",
+      "coreSubject": "Physical Education",
+      "experience": "36 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 79324
+      }
+    },
+    {
+      "id": "0T58",
+      "firstName": "Liam",
+      "lastName": "Foster",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "liam.foster@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1977-11-01",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "37 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 83249
+      }
+    },
+    {
+      "id": "0T59",
+      "firstName": "Stella",
+      "lastName": "Russell",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "stella.russell@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1984-02-20",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "38 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 74823
+      }
+    },
+    {
+      "id": "0T60",
+      "firstName": "Theodore",
+      "lastName": "Patterson",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "theodore.patterson@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1985-05-05",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "39 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 78349
+      }
+    },
+    {
+      "id": "0T61",
+      "firstName": "Aria",
+      "lastName": "Hayes",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "aria.hayes@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1986-06-08",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "40 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 81134
+      }
+    },
+    {
+      "id": "0T62",
+      "firstName": "Miles",
+      "lastName": "Simmons",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "miles.simmons@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1987-09-19",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "41 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 87234
+      }
+    },
+    {
+      "id": "0T63",
+      "firstName": "Nova",
+      "lastName": "Jordan",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "nova.jordan@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1988-12-10",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "42 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 81743
+      }
+    },
+    {
+      "id": "0T64",
+      "firstName": "Hudson",
+      "lastName": "Watson",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "hudson.watson@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1989-03-25",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "43 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 84239
+      }
+    },
+    {
+      "id": "0T65",
+      "firstName": "Bella",
+      "lastName": "Diaz",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "bella.diaz@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1990-06-05",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "44 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 89234
+      }
+    },
+    {
+      "id": "0T66",
+      "firstName": "Leo",
+      "lastName": "Richardson",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "leo.richardson@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1991-09-15",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "45 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 91234
+      }
+    },
+    {
+      "id": "0T67",
+      "firstName": "Scarlett",
+      "lastName": "Hill",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "scarlett.hill@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1992-12-20",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "46 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 88832
+      }
+    },
+    {
+      "id": "0T68",
+      "firstName": "Mateo",
+      "lastName": "Gomez",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "mateo.gomez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1993-05-08",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "47 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 94329
+      }
+    },
+    {
+      "id": "0T69",
+      "firstName": "Aurora",
+      "lastName": "Perry",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "aurora.perry@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1994-08-31",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "48 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 87632
+      }
+    },
+    {
+      "id": "0T70",
+      "firstName": "Lucas",
+      "lastName": "Long",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "lucas.long@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1995-11-10",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "49 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 90432
+      }
+    },
+    {
+      "id": "0T51",
+      "firstName": "Luna",
+      "lastName": "Morales",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "luna.morales@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1982-04-15",
+      "class": "Class 9",
+      "coreSubject": "Physical Education",
+      "experience": "30 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 72983
+      }
+    },
+    {
+      "id": "0T52",
+      "firstName": "Jackson",
+      "lastName": "Reed",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "jackson.reed@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1979-09-18",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "31 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 68249
+      }
+    },
+    {
+      "id": "0T53",
+      "firstName": "Penelope",
+      "lastName": "Cook",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "penelope.cook@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1980-12-03",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "32 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 81173
+      }
+    },
+    {
+      "id": "0T54",
+      "firstName": "Jack",
+      "lastName": "Morgan",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "jack.morgan@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1978-07-26",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "33 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 74902
+      }
+    },
+    {
+      "id": "0T55",
+      "firstName": "Sophie",
+      "lastName": "Cooper",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "sophie.cooper@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1981-02-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "34 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 71102
+      }
+    },
+    {
+      "id": "0T56",
+      "firstName": "Eliana",
+      "lastName": "Ward",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "eliana.ward@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1982-05-31",
+      "class": "Class 10",
+      "coreSubject": "Mathematics",
+      "experience": "35 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 77745
+      }
+    },
+    {
+      "id": "0T57",
+      "firstName": "Levi",
+      "lastName": "Bennett",
+      "gender": "male",
+      "qualification": "B.Sc Biology",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "levi.bennett@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1983-08-29",
+      "class": "Class 11",
+      "coreSubject": "Physical Education",
+      "experience": "36 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 79324
+      }
+    },
+    {
+      "id": "0T58",
+      "firstName": "Liam",
+      "lastName": "Foster",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "liam.foster@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1977-11-01",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "37 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 83249
+      }
+    },
+    {
+      "id": "0T59",
+      "firstName": "Stella",
+      "lastName": "Russell",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "stella.russell@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1984-02-20",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "38 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 74823
+      }
+    },
+    {
+      "id": "0T60",
+      "firstName": "Theodore",
+      "lastName": "Patterson",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "theodore.patterson@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1985-05-05",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "39 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 78349
+      }
+    },
+    {
+      "id": "0T61",
+      "firstName": "Aria",
+      "lastName": "Hayes",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "aria.hayes@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1986-06-08",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "40 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 81134
+      }
+    },
+    {
+      "id": "0T62",
+      "firstName": "Miles",
+      "lastName": "Simmons",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "miles.simmons@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1987-09-19",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "41 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 87234
+      }
+    },
+    {
+      "id": "0T63",
+      "firstName": "Nova",
+      "lastName": "Jordan",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "nova.jordan@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1988-12-10",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "42 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 81743
+      }
+    },
+    {
+      "id": "0T64",
+      "firstName": "Hudson",
+      "lastName": "Watson",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "hudson.watson@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1989-03-25",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "43 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 84239
+      }
+    },
+    {
+      "id": "0T65",
+      "firstName": "Bella",
+      "lastName": "Diaz",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "bella.diaz@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1990-06-05",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "44 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 89234
+      }
+    },
+    {
+      "id": "0T66",
+      "firstName": "Leo",
+      "lastName": "Richardson",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "leo.richardson@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1991-09-15",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "45 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 91234
+      }
+    },
+    {
+      "id": "0T67",
+      "firstName": "Scarlett",
+      "lastName": "Hill",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "scarlett.hill@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1992-12-20",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "46 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 88832
+      }
+    },
+    {
+      "id": "0T68",
+      "firstName": "Mateo",
+      "lastName": "Gomez",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "mateo.gomez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1993-05-08",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "47 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 94329
+      }
+    },
+    {
+      "id": "0T69",
+      "firstName": "Aurora",
+      "lastName": "Perry",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "aurora.perry@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1994-08-31",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "48 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 87632
+      }
+    },
+    {
+      "id": "0T70",
+      "firstName": "Lucas",
+      "lastName": "Long",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "lucas.long@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1995-11-10",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "49 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 90432
+      }
+    },
+    {
+      "id": "0T71",
+      "firstName": "Emma",
+      "lastName": "Ward",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "emma.ward@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1996-02-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "50 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T72",
+      "firstName": "Henry",
+      "lastName": "Cooper",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "henry.cooper@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1997-05-15",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "51 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 96634
+      }
+    },
+    {
+      "id": "0T73",
+      "firstName": "Olivia",
+      "lastName": "Young",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "olivia.young@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "1998-08-20",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "52 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 98823
+      }
+    },
+    {
+      "id": "0T74",
+      "firstName": "Ethan",
+      "lastName": "Hill",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Oak Avenue, Maplewood, NJ",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "ethan.hill@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "1999-11-25",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "53 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 91234
+      }
+    },
+    {
+      "id": "0T75",
+      "firstName": "Charlotte",
+      "lastName": "Mitchell",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "charlotte.mitchell@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2000-04-30",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "54 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T76",
+      "firstName": "James",
+      "lastName": "King",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "james.king@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2001-07-10",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "55 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 98234
+      }
+    },
+    {
+      "id": "0T77",
+      "firstName": "Amelia",
+      "lastName": "Nelson",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "amelia.nelson@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "2002-10-05",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "56 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95834
+      }
+    },
+    {
+      "id": "0T78",
+      "firstName": "Michael",
+      "lastName": "Evans",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "michael.evans@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2003-01-20",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "57 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 99832
+      }
+    },
+    {
+      "id": "0T79",
+      "firstName": "Sophia",
+      "lastName": "Ward",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "sophia.ward@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2004-02-15",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "58 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93429
+      }
+    },
+    {
+      "id": "0T80",
+      "firstName": "Alexander",
+      "lastName": "Baker",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "alexander.baker@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "2005-06-20",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "59 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 97632
+      }
+    },
+    {
+      "id": "0T81",
+      "firstName": "Mia",
+      "lastName": "Sullivan",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "mia.sullivan@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2006-09-25",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "60 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 92032
+      }
+    },
+    {
+      "id": "0T82",
+      "firstName": "William",
+      "lastName": "Ward",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "william.ward@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2007-12-30",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "61 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T83",
+      "firstName": "Evelyn",
+      "lastName": "Foster",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "evelyn.foster@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "2008-03-20",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "62 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T84",
+      "firstName": "Daniel",
+      "lastName": "Graham",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "daniel.graham@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2009-06-10",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "63 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 99823
+      }
+    },
+    {
+      "id": "0T85",
+      "firstName": "Ava",
+      "lastName": "Simmons",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "ava.simmons@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "2010-09-05",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "64 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 93834
+      }
+    },
+    {
+      "id": "0T86",
+      "firstName": "Liam",
+      "lastName": "Russell",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "liam.russell@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2011-01-20",
+      "class": "Class 12",
+      "coreSubject": "Science",
+      "experience": "65 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 97432
+      }
+    },
+    {
+      "id": "0T87",
+      "firstName": "Harper",
+      "lastName": "Knight",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "harper.knight@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2012-02-15",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "66 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92029
+      }
+    },
+    {
+      "id": "0T88",
+      "firstName": "Jackson",
+      "lastName": "Harrison",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "jackson.harrison@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "2013-06-20",
+      "class": "Class 10",
+      "coreSubject": "Geography",
+      "experience": "67 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95632
+      }
+    },
+    {
+      "id": "0T89",
+      "firstName": "Ella",
+      "lastName": "Robertson",
+      "gender": "female",
+      "qualification": "B.Ed",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "ella.robertson@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2014-09-25",
+      "class": "Class 11",
+      "coreSubject": "History",
+      "experience": "68 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93232
+      }
+    },
+    {
+      "id": "0T90",
+      "firstName": "Aiden",
+      "lastName": "Shaw",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "aiden.shaw@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2015-12-30",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "69 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 95834
+      }
+    },
+    {
+      "id": "0T91",
+      "firstName": "Scarlett",
+      "lastName": "Holmes",
+      "gender": "female",
+      "qualification": "B.A English",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "scarlett.holmes@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "2016-03-20",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "70 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 99429
+      }
+    },
+    {
+      "id": "0T92",
+      "firstName": "Lucas",
+      "lastName": "Dean",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "lucas.dean@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2017-06-10",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "71 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92632
+      }
+    },
+    {
+      "id": "0T93",
+      "firstName": "Chloe",
+      "lastName": "Bennett",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "chloe.bennett@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2018-09-05",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "72 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 91234
+      }
+    },
+    {
+      "id": "0T94",
+      "firstName": "Benjamin",
+      "lastName": "Clark",
+      "gender": "male",
+      "qualification": "B.A History",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "benjamin.clark@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "2019-01-20",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "73 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93832
+      }
+    },
+    {
+      "id": "0T95",
+      "firstName": "Zoey",
+      "lastName": "Holmes",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "zoey.holmes@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2020-04-30",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "74 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92034
+      }
+    },
+    {
+      "id": "0T96",
+      "firstName": "Joseph",
+      "lastName": "Baker",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "joseph.baker@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2021-07-10",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "75 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 99632
+      }
+    },
+    {
+      "id": "0T97",
+      "firstName": "Madison",
+      "lastName": "Reed",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "madison.reed@example.com",
+      "maritalStatus": "married",
+      "D.O.B": "2022-10-05",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "76 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 97432
+      }
+    },
+    {
+      "id": "0T98",
+      "firstName": "Gabriel",
+      "lastName": "Sanders",
+      "gender": "male",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "gabriel.sanders@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T99",
+      "firstName": "Penelope",
+      "lastName": "Reyes",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "penelope.reyes@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T100",
+      "firstName": "Aaron",
+      "lastName": "Morris",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "aaron.morris@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T101",
+      "firstName": "Elijah",
+      "lastName": "Cook",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "567 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "elijah.cook@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-07-12",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "80 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92736
+      }
+    },
+    {
+      "id": "0T102",
+      "firstName": "Elena",
+      "lastName": "Foster",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "elena.foster@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-04-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "81 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 94327
+      }
+    },
+    {
+      "id": "0T103",
+      "firstName": "Nathaniel",
+      "lastName": "Sanders",
+      "gender": "male",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "nathaniel.sanders@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "English",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T104",
+      "firstName": "Penelope",
+      "lastName": "Reyes",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "penelope.reyes@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T105",
+      "firstName": "Aaron",
+      "lastName": "Morris",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "aaron.morris@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T111",
+      "firstName": "Ethan",
+      "lastName": "Watson",
+      "gender": "male",
+      "qualification": "B.Ed",
+      "address": "567 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "ethan.watson@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-07-12",
+      "class": "Class 11",
+      "coreSubject": "Mathematics",
+      "experience": "80 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92736
+      }
+    },
+    {
+      "id": "0T112",
+      "firstName": "Avery",
+      "lastName": "Tucker",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "avery.tucker@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-04-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "81 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 94327
+      }
+    },
+    {
+      "id": "0T113",
+      "firstName": "Madison",
+      "lastName": "Kim",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "madison.kim@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "History",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T114",
+      "firstName": "Brooklyn",
+      "lastName": "Nguyen",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "brooklyn.nguyen@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T115",
+      "firstName": "Jackson",
+      "lastName": "Rivera",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "jackson.rivera@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T116",
+      "firstName": "Scarlett",
+      "lastName": "Knight",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "567 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "scarlett.knight@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-07-12",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "80 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92736
+      }
+    },
+    {
+      "id": "0T117",
+      "firstName": "Lucas",
+      "lastName": "Burns",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "lucas.burns@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-04-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "81 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 94327
+      }
+    },
+    {
+      "id": "0T118",
+      "firstName": "Emma",
+      "lastName": "Snyder",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "emma.snyder@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "History",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T119",
+      "firstName": "Mia",
+      "lastName": "Chavez",
+      "gender": "female",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "mia.chavez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T120",
+      "firstName": "Benjamin",
+      "lastName": "Patterson",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "benjamin.patterson@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T121",
+      "firstName": "Evelyn",
+      "lastName": "Perkins",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "567 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "evelyn.perkins@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-07-12",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "80 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92736
+      }
+    },
+    {
+      "id": "0T122",
+      "firstName": "Oliver",
+      "lastName": "Lopez",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "oliver.lopez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-04-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "81 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 94327
+      }
+    },
+    {
+      "id": "0T123",
+      "firstName": "Aria",
+      "lastName": "Gonzalez",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "aria.gonzalez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "History",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T124",
+      "firstName": "Levi",
+      "lastName": "Evans",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "levi.evans@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T125",
+      "firstName": "Henry",
+      "lastName": "Simmons",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "henry.simmons@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T126",
+      "firstName": "Harper",
+      "lastName": "Morgan",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "567 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "harper.morgan@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-07-12",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "80 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92736
+      }
+    },
+    {
+      "id": "0T127",
+      "firstName": "Leo",
+      "lastName": "Garcia",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "leo.garcia@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-04-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "81 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 94327
+      }
+    },
+    {
+      "id": "0T128",
+      "firstName": "Luna",
+      "lastName": "Thompson",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "luna.thompson@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "History",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T129",
+      "firstName": "Mateo",
+      "lastName": "Hall",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "mateo.hall@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T130",
+      "firstName": "Sofia",
+      "lastName": "Lee",
+      "gender": "female",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "sofia.lee@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T131",
+      "firstName": "Zoey",
+      "lastName": "Allen",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "567 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "zoey.allen@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-07-12",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "80 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92736
+      }
+    },
+    {
+      "id": "0T132",
+      "firstName": "Axel",
+      "lastName": "Young",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "axel.young@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-04-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "81 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 94327
+      }
+    },
+    {
+      "id": "0T133",
+      "firstName": "Piper",
+      "lastName": "Hernandez",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "piper.hernandez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "History",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T134",
+      "firstName": "John",
+      "lastName": "Martinez",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "john.martinez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T135",
+      "firstName": "James",
+      "lastName": "King",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "james.king@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T136",
+      "firstName": "Hazel",
+      "lastName": "Wright",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "567 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "hazel.wright@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-07-12",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "80 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92736
+      }
+    },
+    {
+      "id": "0T137",
+      "firstName": "Michael",
+      "lastName": "Scott",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "michael.scott@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-04-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "81 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 94327
+      }
+    },
+    {
+      "id": "0T138",
+      "firstName": "Lily",
+      "lastName": "Adams",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "lily.adams@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "History",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T139",
+      "firstName": "Eli",
+      "lastName": "Cooper",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "eli.cooper@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T140",
+      "firstName": "Daniel",
+      "lastName": "Ward",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "daniel.ward@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T141",
+      "firstName": "Nora",
+      "lastName": "Bailey",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "567 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "nora.bailey@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-07-12",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "80 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92736
+      }
+    },
+    {
+      "id": "0T142",
+      "firstName": "David",
+      "lastName": "Morris",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "david.morris@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-04-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "81 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 94327
+      }
+    },
+    {
+      "id": "0T143",
+      "firstName": "Emily",
+      "lastName": "Bell",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "emily.bell@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "History",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T144",
+      "firstName": "Joseph",
+      "lastName": "Sanchez",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "joseph.sanchez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T145",
+      "firstName": "Anthony",
+      "lastName": "Nelson",
+      "gender": "male",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "anthony.nelson@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T146",
+      "firstName": "Grace",
+      "lastName": "Baker",
+      "gender": "female",
+      "qualification": "B.Sc Biology",
+      "address": "567 Oak Street, Ashland, OR",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "grace.baker@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-07-12",
+      "class": "Class 11",
+      "coreSubject": "Science",
+      "experience": "80 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 92736
+      }
+    },
+    {
+      "id": "0T147",
+      "firstName": "Isaac",
+      "lastName": "Hill",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "isaac.hill@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-04-28",
+      "class": "Class 9",
+      "coreSubject": "English",
+      "experience": "81 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 94327
+      }
+    },
+    {
+      "id": "0T148",
+      "firstName": "Lillian",
+      "lastName": "Ramirez",
+      "gender": "female",
+      "qualification": "B.A History",
+      "address": "567 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "lillian.ramirez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2023-01-20",
+      "class": "Class 12",
+      "coreSubject": "History",
+      "experience": "77 years",
+      "salaryDetails": {
+        "grade": "A",
+        "salary": 93829
+      }
+    },
+    {
+      "id": "0T149",
+      "firstName": "Gabriel",
+      "lastName": "Cox",
+      "gender": "male",
+      "qualification": "Ph.D in Mathematics",
+      "address": "901 Cedar Lane, Redwood, CA",
+      "phone": {
+        "primary": "+918573902874",
+        "secondary": "+917502938475"
+      },
+      "email": "gabriel.cox@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2024-02-15",
+      "class": "Class 9",
+      "coreSubject": "Geography",
+      "experience": "78 years",
+      "salaryDetails": {
+        "grade": "C",
+        "salary": 93234
+      }
+    },
+    {
+      "id": "0T150",
+      "firstName": "Sophie",
+      "lastName": "Gomez",
+      "gender": "female",
+      "qualification": "B.Sc Physics",
+      "address": "678 Pine Street, Evergreen, CO",
+      "phone": {
+        "primary": "+917502938475",
+        "secondary": "+918573902874"
+      },
+      "email": "sophie.gomez@example.com",
+      "maritalStatus": "single",
+      "D.O.B": "2025-06-20",
+      "class": "Class 10",
+      "coreSubject": "History",
+      "experience": "79 years",
+      "salaryDetails": {
+        "grade": "B",
+        "salary": 95634
+      }
+    },
+    {
+      "id": "0T151",
+      "firstName": "Hebsiba Elizabeth",
+      "lastName": "J",
+      "gender": "female",
+      "qualification": "M.s.c physics",
+      "address": "Ekkambaram street",
+      "primaryPhone": "0638366672",
+      "secondaryPhone": "0638366674",
+      "email": "hebsibaelizabeth25@gmail.com",
+      "maritalStatus": "single",
+      "dob": "1987-09-10",
+      "class": "class 4",
+      "coreSubject": "Physics",
+      "experience": "3 years",
+      "grade": "C",
+      "salary": "33000"
+    },
+    {
+      "id": "0T152",
+      "firstName": "Hebsiba Elizabeth",
+      "lastName": "J",
+      "gender": "female",
+      "qualification": "M.s.c physics",
+      "address": "Ekkambaram street",
+      "primaryPhone": "0638366674",
+      "secondaryPhone": "0638366674",
+      "email": "hebsibaelizabeth25@gmail.com",
+      "maritalStatus": "single",
+      "dob": "2024-05-02",
+      "class": "class 4",
+      "coreSubject": "Physics",
+      "experience": "3 years",
+      "grade": "A",
+      "salary": "33000"
+    },
+    {
+      "id": "0T153",
+      "firstName": "Hebsiba Elizabeth",
+      "lastName": "J",
+      "gender": "female",
+      "qualification": "M.s.c physics",
+      "address": "Ekkambaram street",
+      "primaryPhone": "0638366679",
+      "secondaryPhone": "0638366674",
+      "email": "hebsibaelizabeth25@gmail.com",
+      "maritalStatus": "",
+      "dob": "2013-02-24",
+      "class": "class 4",
+      "coreSubject": "Physics",
+      "experience": "3 years",
+      "grade": "A",
+      "salary": "33000"
+    },
+    {
+      "id": "0T154",
+      "firstName": "Hebsiba Elizabeth",
+      "lastName": "J",
+      "gender": "",
+      "qualification": "M.s.c physics",
+      "address": "Ekkambaram street",
+      "primaryPhone": "0638366642",
+      "secondaryPhone": "0638366689",
+      "email": "hebsibaelizabeth25@gmail.com",
+      "maritalStatus": "single",
+      "dob": "2009-02-01",
+      "class": "class 4",
+      "coreSubject": "Physics",
+      "experience": "3 years",
+      "grade": "B",
+      "salary": "33000"
+    },
+    {
+      "id": "0T155",
+      "firstName": "Hebsiba Elizabeth",
+      "lastName": "J",
+      "gender": "male",
+      "qualification": "M.s.c physics",
+      "address": "Ekkambaram street",
+      "primaryPhone": "0638366674",
+      "secondaryPhone": "0638366742",
+      "email": "hebsibaelizabeth25@gmail.com",
+      "maritalStatus": "single",
+      "dob": "1991-01-01",
+      "class": "class 4",
+      "coreSubject": "Physics",
+      "experience": "3 years",
+      "grade": "A",
+      "salary": "33000"
+    }
+  ],
+  "students": [
+    {
+      "id": "0S1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "male",
+      "class": "Class 10",
+      "section": "A",
+      "address": "456 Oak Avenue, Springfield, IL",
+      "phone": {
+        "primary": "+917654321098",
+        "secondary": "+912345678901"
+      },
+      "email": "john.doe@example.com",
+      "dob": "2003-05-15",
+      "bloodGroup": "A+",
+      "motherName": "Mary Doe",
+      "fatherName": "David Doe",
+      "motherOccupation": "Teacher",
+      "fatherOccupation": "Engineer",
+      "age": 18,
+      "feeDetails": {
+        "term1": 10000,
+        "term2": 12000,
+        "term3": 8000,
+        "amountPaid": 30000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Sports",
+        "Music",
+        "Reading"
+      ]
+    },
+    {
+      "id": "0S2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "gender": "female",
+      "class": "Class 9",
+      "section": "B",
+      "address": "789 Maple Street, Springfield, IL",
+      "phone": {
+        "primary": "+919876543210",
+        "secondary": ""
+      },
+      "email": "jane.smith@example.com",
+      "dob": "2004-08-20",
+      "bloodGroup": "B-",
+      "motherName": "Alice Smith",
+      "fatherName": "Bob Smith",
+      "motherOccupation": "Doctor",
+      "fatherOccupation": "Lawyer",
+      "age": 17,
+      "feeDetails": {
+        "term1": 11000,
+        "term2": 13000,
+        "term3": 9000,
+        "amountPaid": 34000,
+        "outstandingAmount": 1000
+      },
+      "interests": [
+        "Dancing",
+        "Painting",
+        "Swimming"
+      ]
+    },
+    {
+      "id": "0S3",
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "gender": "male",
+      "class": "Class 11",
+      "section": "C",
+      "address": "123 Cedar Street, Springfield, IL",
+      "phone": {
+        "primary": "+918765432109",
+        "secondary": ""
+      },
+      "email": "michael.johnson@example.com",
+      "dob": "2002-12-10",
+      "bloodGroup": "AB+",
+      "motherName": "Emily Johnson",
+      "fatherName": "Steven Johnson",
+      "motherOccupation": "Nurse",
+      "fatherOccupation": "Accountant",
+      "age": 19,
+      "feeDetails": {
+        "term1": 13000,
+        "term2": 14000,
+        "term3": 10000,
+        "amountPaid": 37000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Basketball",
+        "Coding",
+        "Travelling"
+      ]
+    },
+    {
+      "id": "0S4",
+      "firstName": "Emma",
+      "lastName": "Brown",
+      "gender": "female",
+      "class": "Class 8",
+      "section": "D",
+      "address": "456 Pine Street, Springfield, IL",
+      "phone": {
+        "primary": "+917890123456",
+        "secondary": ""
+      },
+      "email": "emma.brown@example.com",
+      "dob": "2006-03-25",
+      "bloodGroup": "O-",
+      "motherName": "Jennifer Brown",
+      "fatherName": "Richard Brown",
+      "motherOccupation": "Lawyer",
+      "fatherOccupation": "Professor",
+      "age": 16,
+      "feeDetails": {
+        "term1": 9500,
+        "term2": 11500,
+        "term3": 7500,
+        "amountPaid": 28500,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Drawing",
+        "Chess",
+        "Singing"
+      ]
+    },
+    {
+      "id": "0S5",
+      "firstName": "William",
+      "lastName": "Taylor",
+      "gender": "male",
+      "class": "Class 12",
+      "section": "A",
+      "address": "789 Birch Street, Springfield, IL",
+      "phone": {
+        "primary": "+916543278901",
+        "secondary": "+919876543210"
+      },
+      "email": "william.taylor@example.com",
+      "dob": "2001-07-31",
+      "bloodGroup": "A-",
+      "motherName": "Sophia Taylor",
+      "fatherName": "Daniel Taylor",
+      "motherOccupation": "Artist",
+      "fatherOccupation": "Businessman",
+      "age": 20,
+      "feeDetails": {
+        "term1": 15000,
+        "term2": 16000,
+        "term3": 12000,
+        "amountPaid": 43000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Football",
+        "Photography",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "0S6",
+      "firstName": "Olivia",
+      "lastName": "Anderson",
+      "gender": "female",
+      "class": "Class 7",
+      "section": "B",
+      "address": "321 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+919876543210",
+        "secondary": ""
+      },
+      "email": "olivia.anderson@example.com",
+      "dob": "2007-09-12",
+      "bloodGroup": "B+",
+      "motherName": "Emma Anderson",
+      "fatherName": "Andrew Anderson",
+      "motherOccupation": "Doctor",
+      "fatherOccupation": "Engineer",
+      "age": 15,
+      "feeDetails": {
+        "term1": 8500,
+        "term2": 10500,
+        "term3": 7000,
+        "amountPaid": 26000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Swimming",
+        "Dancing",
+        "Painting"
+      ]
+    },
+    {
+      "id": "0S7",
+      "firstName": "James",
+      "lastName": "Wilson",
+      "gender": "male",
+      "class": "Class 9",
+      "section": "C",
+      "address": "654 Walnut Street, Springfield, IL",
+      "phone": {
+        "primary": "+917654321098",
+        "secondary": "+912345678901"
+      },
+      "email": "james.wilson@example.com",
+      "dob": "2005-02-18",
+      "bloodGroup": "AB-",
+      "motherName": "Sarah Wilson",
+      "fatherName": "Matthew Wilson",
+      "motherOccupation": "Teacher",
+      "fatherOccupation": "Lawyer",
+      "age": 17,
+      "feeDetails": {
+        "term1": 11000,
+        "term2": 13000,
+        "term3": 9000,
+        "amountPaid": 33000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Football",
+        "Music",
+        "Reading"
+      ]
+    },
+    {
+      "id": "0S8",
+      "firstName": "Isabella",
+      "lastName": "Martinez",
+      "gender": "female",
+      "class": "Class 11",
+      "section": "A",
+      "address": "987 Oak Street, Springfield, IL",
+      "phone": {
+        "primary": "+918765432109",
+        "secondary": ""
+      },
+      "email": "isabella.martinez@example.com",
+      "dob": "2003-11-27",
+      "bloodGroup": "O+",
+      "motherName": "Linda Martinez",
+      "fatherName": "Jose Martinez",
+      "motherOccupation": "Nurse",
+      "fatherOccupation": "Doctor",
+      "age": 18,
+      "feeDetails": {
+        "term1": 13000,
+        "term2": 14000,
+        "term3": 10000,
+        "amountPaid": 37000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Dancing",
+        "Singing",
+        "Travelling"
+      ]
+    },
+    {
+      "id": "0S9",
+      "firstName": "Liam",
+      "lastName": "Jones",
+      "gender": "male",
+      "class": "Class 8",
+      "section": "B",
+      "address": "159 Cedar Street, Springfield, IL",
+      "phone": {
+        "primary": "+919876543210",
+        "secondary": ""
+      },
+      "email": "liam.jones@example.com",
+      "dob": "2006-06-30",
+      "bloodGroup": "A-",
+      "motherName": "Rebecca Jones",
+      "fatherName": "Kevin Jones",
+      "motherOccupation": "Artist",
+      "fatherOccupation": "Engineer",
+      "age": 15,
+      "feeDetails": {
+        "term1": 9500,
+        "term2": 11500,
+        "term3": 7500,
+        "amountPaid": 28500,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Football",
+        "Coding",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "0S10",
+      "firstName": "Sophia",
+      "lastName": "Garcia",
+      "gender": "female",
+      "class": "Class 10",
+      "section": "C",
+      "address": "357 Pine Street, Springfield, IL",
+      "phone": {
+        "primary": "+917654321098",
+        "secondary": "+912345678901"
+      },
+      "email": "sophia.garcia@example.com",
+      "dob": "2004-10-05",
+      "bloodGroup": "B-",
+      "motherName": "Patricia Garcia",
+      "fatherName": "Michael Garcia",
+      "motherOccupation": "Doctor",
+      "fatherOccupation": "Professor",
+      "age": 17,
+      "feeDetails": {
+        "term1": 10000,
+        "term2": 12000,
+        "term3": 8000,
+        "amountPaid": 30000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Music",
+        "Reading",
+        "Travelling"
+      ]
+    },
+    {
+      "id": "0S11",
+      "firstName": "Mason",
+      "lastName": "Rodriguez",
+      "gender": "male",
+      "class": "Class 9",
+      "section": "D",
+      "address": "852 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+918765432109",
+        "secondary": ""
+      },
+      "email": "mason.rodriguez@example.com",
+      "dob": "2005-07-14",
+      "bloodGroup": "AB+",
+      "motherName": "Michelle Rodriguez",
+      "fatherName": "Juan Rodriguez",
+      "motherOccupation": "Engineer",
+      "fatherOccupation": "Businessman",
+      "age": 16,
+      "feeDetails": {
+        "term1": 11000,
+        "term2": 13000,
+        "term3": 9000,
+        "amountPaid": 33000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Soccer",
+        "Painting",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "0S12",
+      "firstName": "Ava",
+      "lastName": "Lopez",
+      "gender": "female",
+      "class": "Class 11",
+      "section": "A",
+      "address": "963 Walnut Street, Springfield, IL",
+      "phone": {
+        "primary": "+916543278901",
+        "secondary": "+919876543210"
+      },
+      "email": "ava.lopez@example.com",
+      "dob": "2003-02-03",
+      "bloodGroup": "O-",
+      "motherName": "Maria Lopez",
+      "fatherName": "Carlos Lopez",
+      "motherOccupation": "Teacher",
+      "fatherOccupation": "Lawyer",
+      "age": 18,
+      "feeDetails": {
+        "term1": 13000,
+        "term2": 14000,
+        "term3": 10000,
+        "amountPaid": 37000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Dancing",
+        "Singing",
+        "Travelling"
+      ]
+    },
+    {
+      "id": "0S13",
+      "firstName": "Logan",
+      "lastName": "Hernandez",
+      "gender": "male",
+      "class": "Class 10",
+      "section": "B",
+      "address": "741 Cedar Street, Springfield, IL",
+      "phone": {
+        "primary": "+917654321098",
+        "secondary": "+912345678901"
+      },
+      "email": "logan.hernandez@example.com",
+      "dob": "2004-11-22",
+      "bloodGroup": "A+",
+      "motherName": "Laura Hernandez",
+      "fatherName": "Robert Hernandez",
+      "motherOccupation": "Doctor",
+      "fatherOccupation": "Engineer",
+      "age": 17,
+      "feeDetails": {
+        "term1": 10000,
+        "term2": 12000,
+        "term3": 8000,
+        "amountPaid": 30000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Basketball",
+        "Painting",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "0S14",
+      "firstName": "Ethan",
+      "lastName": "Gonzalez",
+      "gender": "male",
+      "class": "Class 9",
+      "section": "C",
+      "address": "357 Cedar Street, Springfield, IL",
+      "phone": {
+        "primary": "+919876543210",
+        "secondary": "+918765432109"
+      },
+      "email": "ethan.gonzalez@example.com",
+      "dob": "2005-01-08",
+      "bloodGroup": "B+",
+      "motherName": "Amanda Gonzalez",
+      "fatherName": "David Gonzalez",
+      "motherOccupation": "Nurse",
+      "fatherOccupation": "Engineer",
+      "age": 17,
+      "feeDetails": {
+        "term1": 11000,
+        "term2": 13000,
+        "term3": 9000,
+        "amountPaid": 33000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Football",
+        "Music",
+        "Reading"
+      ]
+    },
+    {
+      "id": "0S15",
+      "firstName": "Charlotte",
+      "lastName": "Perez",
+      "gender": "female",
+      "class": "Class 11",
+      "section": "D",
+      "address": "654 Pine Street, Springfield, IL",
+      "phone": {
+        "primary": "+917654321098",
+        "secondary": "+912345678901"
+      },
+      "email": "charlotte.perez@example.com",
+      "dob": "2003-04-12",
+      "bloodGroup": "AB-",
+      "motherName": "Jessica Perez",
+      "fatherName": "Jose Perez",
+      "motherOccupation": "Doctor",
+      "fatherOccupation": "Lawyer",
+      "age": 18,
+      "feeDetails": {
+        "term1": 13000,
+        "term2": 14000,
+        "term3": 10000,
+        "amountPaid": 37000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Dancing",
+        "Singing",
+        "Travelling"
+      ]
+    },
+    {
+      "id": "0S16",
+      "firstName": "Aiden",
+      "lastName": "Torres",
+      "gender": "male",
+      "class": "Class 12",
+      "section": "A",
+      "address": "357 Elm Street, Springfield, IL",
+      "phone": {
+        "primary": "+919876543210",
+        "secondary": "+918765432109"
+      },
+      "email": "aiden.torres@example.com",
+      "dob": "2001-08-25",
+      "bloodGroup": "A-",
+      "motherName": "Christina Torres",
+      "fatherName": "Christopher Torres",
+      "motherOccupation": "Engineer",
+      "fatherOccupation": "Businessman",
+      "age": 20,
+      "feeDetails": {
+        "term1": 15000,
+        "term2": 16000,
+        "term3": 12000,
+        "amountPaid": 43000,
+        "outstandingAmount": 0
+      },
+      "interests": [
+        "Football",
+        "Photography",
+        "Gaming"
+      ]
+    }
+  ]
+}
