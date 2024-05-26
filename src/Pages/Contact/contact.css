@@ -1,25 +1,28 @@
-#contact{
+
+
+#contact {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     color: white;
-background-color: black;
-    width:100%;
-    height:100%;
-padding-top:  70px;
-padding-bottom:  70px;
-
-    background-size: cover;
-
-
+    background-color: black;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-.contact-box{
-    margin-left: 50px;
-    margin-right: 80px;
+
+.contact-box {
+    flex-grow: 1; 
 }
-h1{
-text-align: center;
+
+h1 {
+    text-align: center;
 }
-#contact ul{
-    list-style-type: none;
+
+#contact p {
+   margin-left:150px
+   
+}
+
+#contact ul li {
+    margin-bottom: 10px;
 }

@@ -1,6 +1,6 @@
 import './about.css';
 import img1 from '../../assets/about-img.jpg';
-import img2 from '../../assets/about-2.jpg'; // Assuming you have another image for history
+import img2 from '../../assets/about-2.jpg'; 
 
 function About() {
   return (

@@ -1,28 +1,28 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './teacherLogin.css';
+import './studentlogin.css';
 
-function TeacherLogin() {
+function StudentLogin() {
     const [dob, setDob] = useState('');
-    const [email, setEmail] = useState('');
+    const [_id, setId] = useState('');
     const [error, setError] = useState('');
     const navigate = useNavigate();
 
     const handleLogin = (e) => {
         e.preventDefault();
         
-        axios.post('http://localhost:3000/admin/teacherlogin', { email, dob }, { 
+        axios.post('http://localhost:3000/admin/studentlogin', { _id, dob }, { 
             headers: {
                 Authorization: 'Basic YWRtaW46MTIzNA=='
             }
         })
         .then((res) => {
             console.log(res);
-            setEmail('');
+            setId('');
             setDob('');
             setError('');
-            navigate(`/teacher/${email}`, { state: { teacherId: res.data.teacherId } }); 
+            navigate(`/student/${_id}`, { state: { _id: res.data._id } });
         })
         .catch((error) => {
             console.error('Login error:', error);
@@ -32,16 +32,16 @@ function TeacherLogin() {
 
     return (
         <div className="login-container">
-            <h1>Teacher Login</h1>
+            <h1>Student Login</h1>
             {error && <p>{error}</p>}
             <form onSubmit={handleLogin}>
                 <div>
-                    <h4 htmlFor="name">Email ID:</h4>
+                    <h4 htmlFor="name">Student ID:</h4>
                     <input
                         type="text"
                         id="name"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        value={_id}
+                        onChange={(e) => setId(e.target.value)}
                         required
                     />
                 </div>
@@ -60,6 +60,6 @@ function TeacherLogin() {
             </form>
         </div>
     );
-}
+} 
 
-export default TeacherLogin;
+export default StudentLogin;

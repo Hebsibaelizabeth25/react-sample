@@ -1,3 +1,4 @@
+// TeacherDetailsPage.jsx
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import { useParams } from "react-router-dom";
@@ -7,15 +8,17 @@ function TeacherDetailsPage() {
     const [teacher, setTeacher] = useState(null);
 
     useEffect(() => {
-        console.log("teacherId:", teacherId);
-        // Fetch teacher details using teacherId
-        axios.get(`http://localhost:3000/teachers/${teacherId}`)
-            .then(response => {
-                setTeacher(response.data);
-            })
-            .catch(error => {
-                console.error('Error fetching teacher details:', error);
-            });
+        axios.get(`http://localhost:3000/admin/teachersdetails/${teacherId}`, {
+            headers: {
+                Authorization: 'Basic YWRtaW46MTIzNA==' 
+            }
+        })
+        .then(response => {
+            setTeacher(response.data);
+        })
+        .catch(error => {
+            console.error('Error fetching teacher details:', error);
+        });
     }, [teacherId]);
 
     if (!teacher) {
@@ -24,15 +27,13 @@ function TeacherDetailsPage() {
 
     return (
         <div>
-            <h2>Your Details</h2>
+            <h2>Teacher Details</h2>
             <div>
-                <p>ID: {teacher.id}</p>
-                <p>First Name: {teacher.firstName}</p>
-                <p>Last Name: {teacher.lastName}</p>
+                <p>ID: {teacher._id}</p>
+                <p>First Name: {teacher.fname}</p>
+                <p>Last Name: {teacher.lname}</p>
                 <p>Gender: {teacher.gender}</p>
                 <p>Qualification: {teacher.qualification}</p>
-
-
             </div>
         </div>
     );

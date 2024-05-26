@@ -13,32 +13,46 @@ import CheckmarkDemo from './Pages/Contact/contact'
 import About from './Pages/About/about'
 import Contact from './Pages/Contact/contact'
 import Navbar from './Pages/Navbar/navbar';
-import DynamicDemo from './Pages/Provide/provide';
 import Tlogin from './Pages/TeacherLogin/teacherLogin';
 import AdminDashboard from './Pages/Adminpage/adminpage';
 import TeacherDetailsPage from './Pages/TeacherDetails/teacherdetails';
 import RegisterForm from './Pages/AddformTeacher/AddformTeacher';
-import AddStudentForm from './Pages/AddStudentform/addformStudent';
 import Studentform from './Pages/studentForm/studentform';
-import Rstudentform from './Pages/AddStudentform/addformStudent';
-// import BasicDemo from './Pages/Achievement/achievement'
+import TeacherLgPage from './Pages/loginedteacherdetails/lgteacherdetails';
+import LeaveRequestPage from './Pages/LeaveRequest/leaverequest';
+import Adminlogin from './Pages/adminLogin/adminlogin';
+import StudentLogin from './Pages/studentlogin/studentlogin';
+import StudentPage from './Pages/studentdetails/studentdetails';
+import EditTeacherPage from './Pages/EditpageadminTeacher/editpageadminT';
+import StudentViewPage from './Pages/Adminstudentdetails/adminstudentdetails';
+import StudentEditPage from './Pages/EditStudentPage/editstudentadmin';
 
 function App() {
   return <>  <BrowserRouter>
     <Navbar />
     <Routes>
-
       <Route path='/' element={<Home />}></Route>
       <Route path='/about' element={<About />}></Route>
       <Route path='/contact' element={<Contact />}></Route>
       <Route path='/teacherlogin' element={< Tlogin />}></Route>
-      <Route path='/adminpage' element={<AdminDashboard/>}></Route>
+      <Route path='/studentlogin' element={< StudentLogin />}></Route>
+
+      <Route path='/adminpage' element={<Adminlogin/>}></Route>
       <Route path="/teachers/:teacherId" element={<TeacherDetailsPage />} />
       <Route path="/add-teacher" element={<RegisterForm/>} />
-      <Route path="/add-student" element={<Rstudentform/>} />
+      <Route path="/add-student" element={<Studentform/>} />
+      <Route path="/teacher/:email" element={<TeacherLgPage />} />
+      <Route path="/student/:id" element={<StudentPage />} />
+      <Route path="/teacheredit/:id" element={<EditTeacherPage />} />
+      <Route path="/student-edit/:studentId" element={<StudentEditPage />} />
+
+      <Route path="/detailsstudent/:studentId" element={<StudentViewPage />} />
+
+      <Route path="/admin/:name" element={<AdminDashboard />} />
+      
+      <Route path="/leave-request" element={<LeaveRequestPage/>} />
 
     </Routes></BrowserRouter>
-    <DynamicDemo />
 
   </>
 }

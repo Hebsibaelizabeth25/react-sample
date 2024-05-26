@@ -1,22 +1,25 @@
 #overall-about {
   text-align: center; 
-  background-color: azure;
+  background-color: rgba(210, 212, 239, 0.936)
 }
 
 #about {
   display: flex;
-  justify-content: center; /* Center the flex items horizontally */
-  align-items: center; /* Center items vertically */
-  margin-bottom: 30px; /* Add space between sections */
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 30px; 
 }
 
 .about-content {
-  width: 50%; /* Set content width to 50% */
-  text-align: left; /* Align text to the left */
+  width: 50%; 
+  text-align: left;
 }
-
+.about-content h3{
+  font-size: 24px;
+}
 .about-image {
-  width: 50%; /* Set image width to 50% */
-  max-width: 400px; /* Limit maximum image width */
-  margin: 0 20px; /* Add margins to images */
+  width: 50%;
+  max-width: 400px;
+  margin: 13px 20px;
+  border-radius: 10px;
 }

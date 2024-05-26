@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+label {
+    width: 48%; 
+}
+
+.success-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999; 
+}
+
+.success-popup p {
+    margin: 0;
+    font-size: 16px;
+    color: #3c763d;
+}

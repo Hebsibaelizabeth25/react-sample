@@ -1,37 +1,48 @@
-.admin-container{
-    display: grid;
-    grid-template-columns: 80% 10% 10%;
-    text-align: left;
+.admin-container {
+    padding: 20px;
 }
-.datatable{
-    text-align: center;
-    padding-left: 340px;
-    margin-top: 10px;
-    display: block;
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
+
+.welcome-section h3 {
+    margin-bottom: 0;
+}
+
+.welcome-section button {
+    margin-left: 10px;
+}
+
 .datatable {
-    width: 80%; /* Table width */
-    border-collapse: collapse; /* Collapse table borders */
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
 .datatable th, .datatable td {
-    border: 1px solid #ddd; /* Add border to table cells */
-    padding: 8px; /* Padding inside table cells */
-    text-align: left; /* Align text to the left within cells */
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
 
 .datatable th {
-    background-color: #f2f2f2; /* Header background color */
+    background-color: #f2f2f2;
 }
 
-.datatable tr:nth-child(even) {
-    background-color: #f9f9f9; /* Alternate row background color */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.datatable tr:hover {
-    background-color: #f2f2f2; /* Row background color on hover */
-}
-.datatable {
-    max-height: 80vh; /* Set a fixed height for the container */
-    overflow-y: auto; /* Enable vertical scrollbar */
+.button:hover {
+    background-color: #0056b3;
 }

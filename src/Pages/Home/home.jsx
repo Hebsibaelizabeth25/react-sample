@@ -1,27 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import { Galleria } from 'primereact/galleria';
-import img1 from '../../assets/about-1.jpg';
-import img2 from '../../assets/banner2.jpg';
-import { Carousel } from 'primereact/carousel';
-
-import image1 from '../../assets/back-banner.jpg'; // Import the image directly
+import img1 from '../../assets/sbanner.jpg';
+import img2 from '../../assets/homebanner.jpg';
 import './home.css';
-import DynamicDemo from '../Provide/provide';
-
 
 function Home() {
     const [images, setImages] = useState([
-        { itemImageSrc: img1, thumbnailImageSrc: img1, alt: 'Image 1', caption: 'Welcome' },
-        { itemImageSrc: img2, thumbnailImageSrc: img2, alt: 'Image 2', caption: 'Glow Everywhere' },
+        { itemImageSrc: img1, thumbnailImageSrc: img1, alt: 'Image 1', caption: 'WISDOM SPRING SCHOOL OF EDUCATION' },
+        { itemImageSrc: img2, thumbnailImageSrc: img2, alt: 'Image 2', caption: 'WISDOM SPRING SCHOOL OF EDUCATION' },
     ]);
 
     useEffect(() => {
     }, []);
+
     const itemTemplate = (item) => {
         return (
             <div style={{ position: 'relative', width: '100%', height: '100%' }}>
                 <img src={item.itemImageSrc} alt={item.alt} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                <div className="caption" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color: 'white', backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '5px' }}>{item.caption}</div>
+                <div className="caption" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color: 'white', backgroundColor: 'rgb(56, 89, 134)', padding: '5px', fontSize: '36px' }}>{item.caption}</div>
             </div>
         );
     }
@@ -36,7 +32,7 @@ function Home() {
                 value={images}
                 numVisible={5}
                 circular
-                style={{ width: '100vw', height: '100vh' }}
+                style={{ width: '100vw', height: '81vh' }}
                 thumbnail={thumbnailTemplate}
                 autoPlay
                 transitionInterval={2000}
@@ -47,7 +43,7 @@ function Home() {
                 autoplayInterval={4000}
             />
         </div>
-    
     )
 }
-export default Home
+
+export default Home;

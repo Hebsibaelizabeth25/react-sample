@@ -1,28 +1,32 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './teacherLogin.css';
+import './adminlogin.css';
 
-function TeacherLogin() {
-    const [dob, setDob] = useState('');
-    const [email, setEmail] = useState('');
+function Adminlogin() {
+    const [password, setPassword] = useState('');
+    const [name, setName] = useState('');
     const [error, setError] = useState('');
     const navigate = useNavigate();
 
     const handleLogin = (e) => {
         e.preventDefault();
         
-        axios.post('http://localhost:3000/admin/teacherlogin', { email, dob }, { 
+        axios.post('http://localhost:3000/admin/adminlogin', { name, password }, { 
             headers: {
                 Authorization: 'Basic YWRtaW46MTIzNA=='
             }
         })
         .then((res) => {
             console.log(res);
-            setEmail('');
-            setDob('');
-            setError('');
-            navigate(`/teacher/${email}`, { state: { teacherId: res.data.teacherId } }); 
+            if (res.data === 'login sucessfully') {
+                setName('');
+                setPassword('');
+                setError('');
+                navigate(`/admin/${name}`);
+            } else {
+                setError('Incorrect password or user not found');
+            }
         })
         .catch((error) => {
             console.error('Login error:', error);
@@ -32,27 +36,27 @@ function TeacherLogin() {
 
     return (
         <div className="login-container">
-            <h1>Teacher Login</h1>
+            <h1>Admin Login</h1>
             {error && <p>{error}</p>}
             <form onSubmit={handleLogin}>
                 <div>
-                    <h4 htmlFor="name">Email ID:</h4>
+                    <label htmlFor="name">User ID:</label>
                     <input
                         type="text"
                         id="name"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
                         required
                     />
                 </div>
                 <div>
-                    <h4 htmlFor="password">Date of Birth (YYYY-MM-DD):</h4>
+                    <label htmlFor="password">Password:</label>
                     <input
-                        type="text"
+                        type="password" 
                         id="password"
-                        value={dob}
-                        onChange={(e) => setDob(e.target.value)}
-                        placeholder="YYYY-MM-DD"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        placeholder="Password"
                         required
                     />
                 </div>
@@ -60,6 +64,6 @@ function TeacherLogin() {
             </form>
         </div>
     );
-}
+} 
 
-export default TeacherLogin;
+export default Adminlogin;

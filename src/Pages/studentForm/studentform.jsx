@@ -1,92 +1,55 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 import './studentform.css';
-
 function Studentform() {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
+    fname: '',
+    lname: '',
     gender: '',
     qualification: '',
     address: '',
     primaryPhone: '',
     secondaryPhone: '',
     email: '',
-    section: '',
     dob: '',
-    class: '',
+    sclass: '',
+    section: '',
+    age: '',
     bloodgroup: '',
-    experience: '', // Added missing field
     motherName: '',
     fatherName: '',
     motherOccupation: '',
     fatherOccupation: '',
-    age: '',
     term1: '',
     term2: '',
     term3: '',
     amountPaid: '',
     outstandingAmount: '',
     interests: '',
-    id: '',
   });
 
   const [validationErrors, setValidationErrors] = useState({});
-  const [lastId, setLastId] = useState('');
-  const [showPopup, setShowPopup] = useState(false); // State for popup visibility
-
-  // Fetch the last ID when the component mounts
-  useEffect(() => {
-    fetchLastId();
-  }, []);
-
-  // Fetch the last ID from the server
-  const fetchLastId = () => {
-    fetch('http://localhost:3000/students')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to fetch last ID');
-        }
-        return response.json();
-      })
-      .then(data => {
-        const lastStudent = data[data.length - 1];
-        if (lastStudent && lastStudent.id) {
-          setLastId(lastStudent.id);
-        }
-      })
-      .catch(error => {
-        console.error('Error fetching last ID:', error);
-      });
-  };
+  const [showPopup, setShowPopup] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     let error = '';
-
-    // Handle specific validations based on field name
+    
     if (name === 'primaryPhone' || name === 'secondaryPhone') {
-      if (value && value.trim() && !isValidPhone(value)) {
+      if (value.trim() && !isValidPhone(value)) {
         error = 'Invalid phone number';
       }
     } else if (name === 'email') {
-      if (value && value.trim() && !isValidEmail(value)) {
+      if (value.trim() && !isValidEmail(value)) {
         error = 'Invalid email address';
       }
-    } else if (name === 'firstName') {
-      if (!value || !value.trim()) {
-        error = 'First name is required';
-      }
-    } else if (name === 'lastName') {
-      if (!value || !value.trim()) {
-        error = 'Last name is required';
-      }
     }
-    // Add similar conditions for other fields...
 
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
     }));
+
     setValidationErrors((prevErrors) => ({
       ...prevErrors,
       [name]: error,
@@ -94,97 +57,70 @@ function Studentform() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent default form submission behavior
+    e.preventDefault();
+  
     const errors = validateForm(formData);
-    if (Object.keys(errors).length > 0) {
-      setValidationErrors(errors);
-      return;
-    }
   
-    const newId = generateNextId(lastId); // Generate the next ID based on the last ID
+    if (Object.keys(errors).length === 0) {
+      axios
+        .post('http://localhost:3000/admin/studentform', formData, {
+          headers: {
+            Authorization: 'Basic YWRtaW46MTIzNA=='
+          }
+        })
+        .then((response) => {
+          console.log('Form data submitted successfully:', response.data);
+          setShowPopup(true);
+          setFormData({
+            fname: '',
+            lname: '',
+            gender: '',
+            qualification: '',
+            address: '',
+            primaryPhone: '',
+            secondaryPhone: '',
+            email: '',
+            dob: '',
+            sclass: '',
+            section: '',
+            age: '',
+            bloodgroup: '',
+            motherName: '',
+            fatherName: '',
+            motherOccupation: '',
+            fatherOccupation: '',
+            term1: '',
+            term2: '',
+            term3: '',
+            amountPaid: '',
+            outstandingAmount: '',
+            interests: '',
+          });
   
-    // Update the form data with the new ID
-    const newData = { ...formData, id: newId };
-  
-    // Perform form submission with newData
-    fetch('http://localhost:3000/students', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(newData),
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to submit form data');
-        }
-        return response.json();
-      })
-      .then(data => {
-        console.log('Form data submitted successfully:', data);
-        // Show the popup
-        setShowPopup(true);
-        // Clear form fields after successful submission
-        setFormData({
-          firstName: '',
-          lastName: '',
-          gender: '',
-          qualification: '',
-          address: '',
-          primaryPhone: '',
-          secondaryPhone: '',
-          email: '',
-          section: '',
-          dob: '',
-          class: '',
-          bloodgroup: '',
-          experience: '', // Add missing field
-          motherName: '',
-          fatherName: '',
-          motherOccupation: '',
-          fatherOccupation: '',
-          age: '',
-          term1: '',
-          term2: '',
-          term3: '',
-          amountPaid: '',
-          outstandingAmount: '',
-          interests: '',
-          id: '',
+          setValidationErrors({});
+          setTimeout(() => {
+            setShowPopup(false);
+          }, 10000);
+        })
+        .catch((error) => {
+          console.error('Error submitting form data:', error);
         });
-        setValidationErrors({});
-        // Hide the popup after 10 seconds
-        setTimeout(() => {
-          setShowPopup(false);
-        }, 10000);
-      })
-      .catch(error => {
-        console.error('Error submitting form data:', error);
-      });
-  };
-  const isValidEmail = (email) => {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  };
-
-  const isValidPhone = (phone) => {
-    return /^[0-9]{10}$/.test(phone);
+    } else {
+      setValidationErrors(errors);
+    }
   };
 
   const validateForm = (data) => {
     let errors = {};
   
-    // Check for empty fields and set errors
-    if (!data.firstName || !data.firstName.trim()) {
-      errors.firstName = 'First name is required';
+    if (!data.fname || !data.fname.trim()) {
+      errors.fname = 'First name is required';
     }
-    if (!data.lastName || !data.lastName.trim()) {
-      errors.lastName = 'Last name is required';
+    if (!data.lname || !data.lname.trim()) {
+      errors.lname = 'Last name is required';
     }
     if (!data.gender) {
       errors.gender = 'Gender is required';
-    }
-    if (!data.qualification || !data.qualification.trim()) {
-      errors.qualification = 'Qualification is required';
     }
     if (!data.address || !data.address.trim()) {
       errors.address = 'Address is required';
@@ -203,78 +139,47 @@ function Studentform() {
     if (!data.dob) {
       errors.dob = 'Date of birth is required';
     }
-    if (!data.class || !data.class.trim()) {
-      errors.class = 'Class is required';
-    }
-    if (!data.bloodgroup || !data.bloodgroup.trim()) {
-      errors.bloodgroup = 'Blood group is required';
-    }
-    if (!data.experience || !data.experience.trim()) {
-      errors.experience = 'Experience is required';
+    if (!data.sclass || !data.sclass.trim()) {
+      errors.sclass = 'Class is required';
     }
     if (!data.motherName || !data.motherName.trim()) {
-      errors.motherName = 'Mother\'s name is required';
+      errors.motherName = "Mother's name is required";
     }
     if (!data.fatherName || !data.fatherName.trim()) {
-      errors.fatherName = 'Father\'s name is required';
-    }
-    if (!data.motherOccupation || !data.motherOccupation.trim()) {
-      errors.motherOccupation = 'Mother\'s occupation is required';
-    }
-    if (!data.fatherOccupation || !data.fatherOccupation.trim()) {
-      errors.fatherOccupation = 'Father\'s occupation is required';
+      errors.fatherName = "Father's name is required";
     }
     if (!data.age || !data.age.trim()) {
       errors.age = 'Age is required';
     }
-    if (!data.term1 || !data.term1.trim()) {
-      errors.term1 = 'Term 1 is required';
-    }
-    if (!data.term2 || !data.term2.trim()) {
-      errors.term2 = 'Term 2 is required';
-    }
-    if (!data.term3 || !data.term3.trim()) {
-      errors.term3 = 'Term 3 is required';
-    }
-    if (!data.amountPaid || !data.amountPaid.trim()) {
-      errors.amountPaid = 'Amount paid is required';
-    }
-    if (!data.outstandingAmount || !data.outstandingAmount.trim()) {
-      errors.outstandingAmount = 'Outstanding amount is required';
-    }
-    if (!data.interests) {
-      errors.interests = 'Interests are required';
-    }
   
     return errors;
-  };
-
-  const generateNextId = (lastId) => {
-    if (!lastId) return '0S1'; // If no last ID, start from 0S1
-    const numericPart = parseInt(lastId.substring(2)) + 1; // Extract numeric part and increment
-    return '0S' + numericPart.toString(); // Construct and return the next ID
   };
 
   const closePopup = () => {
     setShowPopup(false);
   };
  
-
+  const isValidEmail = (email) => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  };
+  const isValidPhone = (phone) => {
+    return /^[0-9]{10}$/.test(phone);
+  };
   return (
     <div>
-      <h2>Register Form</h2>
+      <h2>Add Student Form</h2>
       <form onSubmit={handleSubmit} className="form-container">
         <div>
           <label>
             First Name<span className="mandatory">*</span>:
             <input
               type="text"
-              name="firstName"
-              value={formData.firstName}
+              name="fname"
+              value={formData.fname}
               onChange={handleChange}
             />
-            {validationErrors.firstName && (
-              <span className="error">{validationErrors.firstName}</span>
+            {validationErrors.fname && (
+              <span className="error">{validationErrors.fname}</span>
             )}
           </label>
         </div>
@@ -283,12 +188,12 @@ function Studentform() {
             Last Name:
             <input
               type="text"
-              name="lastName"
-              value={formData.lastName}
+              name="lname"
+              value={formData.lname}
               onChange={handleChange}
             />
-            {validationErrors.lastName && (
-              <span className="error">{validationErrors.lastName}</span>
+            {validationErrors.lname && (
+              <span className="error">{validationErrors.lname}</span>
             )}
           </label>
         </div>
@@ -307,20 +212,18 @@ function Studentform() {
           </label>
         </div>
         <div>
-          <label>
-            Class<span className="mandatory">*</span>:
-            <input
-              type="text"
-              name="qualification"
-              value={formData.qualification}
-              onChange={handleChange}
-            />
-            {validationErrors.qualification && (
-              <span className="error">{validationErrors.qualification}</span>
-            )}
-          </label>
+          <label>Class:</label>
+          <input
+            type="text"
+            name="sclass"
+            value={formData.sclass}
+            onChange={handleChange}
+          />
+          {validationErrors.class && (
+            <span className="error">{validationErrors.class}</span>
+          )}
         </div>
-                <div>
+        <div>
           <label>section:</label>
           <select
             name="section"
@@ -330,12 +233,25 @@ function Studentform() {
             <option value="">Select</option>
             <option value="A">A</option>
             <option value="B">B</option>
-                       <option value="C">C</option>
-
+            <option value="C">C</option>
           </select>
           {validationErrors.section && (
             <span className="error">{validationErrors.section}</span>
           )}
+        </div>
+        <div>
+          <label>
+            Age<span className="mandatory">*</span>:
+            <input
+              type="text"
+              name="age"
+              value={formData.age}
+              onChange={handleChange}
+            />
+            {validationErrors.age && (
+              <span className="error">{validationErrors.age}</span>
+            )}
+          </label>
         </div>
         <div>
           <label>Address:</label>
@@ -364,7 +280,7 @@ function Studentform() {
           </label>
         </div>
         <div>
-          <label>Mother's Phone Number:</label>
+          <label>Mother's Phone:</label>
           <input
             type="text"
             name="secondaryPhone"
@@ -402,18 +318,7 @@ function Studentform() {
             <span className="error">{validationErrors.dob}</span>
           )}
         </div>
-        <div>
-          <label>Class:</label>
-          <input
-            type="text"
-            name="class"
-            value={formData.class}
-            onChange={handleChange}
-          />
-          {validationErrors.class && (
-            <span className="error">{validationErrors.class}</span>
-          )}
-        </div>
+        
         <div>
           <label>
             Blood Group<span className="mandatory">*</span>:
@@ -428,20 +333,7 @@ function Studentform() {
             )}
           </label>
         </div>
-        <div>
-          <label>
-            Experience<span className="mandatory">*</span>:
-            <input
-              type="text"
-              name="experience"
-              value={formData.experience}
-              onChange={handleChange}
-            />
-            {validationErrors.experience && (
-              <span className="error">{validationErrors.experience}</span>
-            )}
-          </label>
-        </div>
+        
         <div>
           <label>Mother's Name:</label>
           <input
@@ -474,9 +366,7 @@ function Studentform() {
             value={formData.motherOccupation}
             onChange={handleChange}
           />
-          {validationErrors.motherOccupation && (
-            <span className="error">{validationErrors.motherOccupation}</span>
-          )}
+          
         </div>
         <div>
           <label>Father's Occupation:</label>
@@ -486,9 +376,7 @@ function Studentform() {
             value={formData.fatherOccupation}
             onChange={handleChange}
           />
-          {validationErrors.fatherOccupation && (
-            <span className="error">{validationErrors.fatherOccupation}</span>
-          )}
+          
         </div>
         <div>
           <label>
@@ -500,13 +388,11 @@ function Studentform() {
               onChange={handleChange}
             >
               <option value="">Select</option>
-              <option value="A"></option>
-              <option value="B">B</option>
-              <option value="C">C</option>
+              <option value="A">Sports</option>
+              <option value="B">Music</option>
+              <option value="C">Yoga</option>
             </select>
-            {validationErrors.interests && (
-            <span className="error">{validationErrors.interests}</span>
-          )}
+            
           </label>
         </div>
         <div>
@@ -517,9 +403,7 @@ function Studentform() {
             value={formData.term1}
             onChange={handleChange}
           />
-          {validationErrors.term1 && (
-            <span className="error">{validationErrors.term1}</span>
-          )}
+        
         </div>
         <div>
           <label>Term 2:</label>
@@ -529,9 +413,7 @@ function Studentform() {
             value={formData.term2}
             onChange={handleChange}
           />
-          {validationErrors.term2 && (
-            <span className="error">{validationErrors.term2}</span>
-          )}
+          
         </div>
         <div>
           <label>Term 3:</label>
@@ -541,9 +423,7 @@ function Studentform() {
             value={formData.term3}
             onChange={handleChange}
           />
-          {validationErrors.term3 && (
-            <span className="error">{validationErrors.term3}</span>
-          )}
+          
         </div>
         <div>
           <label>Amount Paid:</label>
@@ -553,9 +433,7 @@ function Studentform() {
             value={formData.amountPaid}
             onChange={handleChange}
           />
-          {validationErrors.amountPaid && (
-            <span className="error">{validationErrors.amountPaid}</span>
-          )}
+         
         </div>
         <div>
           <label>Outstanding Amount:</label>
@@ -565,17 +443,13 @@ function Studentform() {
             value={formData.outstandingAmount}
             onChange={handleChange}
           />
-          {validationErrors.outstandingAmount && (
-            <span className="error">{validationErrors.outstandingAmount}</span>
-          )}
+          
         </div>
 
-
-        <div className="submit-button">
+        <div className="submit-button-container">
           <button type="submit">Submit</button>
         </div>
       </form>
-       {/* Popup */}
        {showPopup && (
         <div className="popup-container" onClick={closePopup}>
           <div className="popup">

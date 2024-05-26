@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './AddformTeacher.css';
+import axios from 'axios';
 
 function RegisterForm() {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
+    fname: '',
+    lname: '',
     gender: '',
     qualification: '',
     address: '',
@@ -13,7 +14,7 @@ function RegisterForm() {
     email: '',
     maritalStatus: '',
     dob: '',
-    class: '',
+    sclass: '',
     coreSubject: '',
     experience: '',
     grade: '',
@@ -21,40 +22,12 @@ function RegisterForm() {
   });
 
   const [validationErrors, setValidationErrors] = useState({});
-  const [lastId, setLastId] = useState('');
   const [showPopup, setShowPopup] = useState(false); // State for popup visibility
-
-  // Fetch the last ID when the component mounts
-  useEffect(() => {
-    fetchLastId();
-  }, []);
-
-  // Fetch the last ID from the server
-  const fetchLastId = () => {
-    fetch('http://localhost:3000/teachers')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to fetch last ID');
-        }
-        return response.json();
-      })
-      .then(data => {
-        // Assuming the response is an array of teachers with IDs
-        // Extract the last ID from the last item in the array
-        const lastTeacher = data[data.length - 1];
-        if (lastTeacher && lastTeacher.id) {
-          setLastId(lastTeacher.id);
-        }
-      })
-      .catch(error => {
-        console.error('Error fetching last ID:', error);
-      });
-  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     let error = '';
-    
+
     if (name === 'primaryPhone' || name === 'secondaryPhone') {
       if (value.trim() && !isValidPhone(value)) {
         error = 'Invalid phone number';
@@ -77,40 +50,20 @@ function RegisterForm() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent default form submission behavior
+    e.preventDefault();
     const errors = validateForm(formData);
-    if (Object.keys(errors).length > 0) {
-      setValidationErrors(errors);
-      return;
-    }
-
-    const newId = generateNextId(lastId); // Generate the next ID based on the last ID
-
-    // Update the form data with the new ID
-    const newData = { ...formData, id: newId };
-
-    // Perform form submission with newData
-    fetch('http://localhost:3000/teachers', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(newData),
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to submit form data');
-        }
-        return response.json();
+    if (Object.keys(errors).length === 0) {
+      axios.post('http://localhost:3000/admin/register', formData, {
+        headers: {
+          Authorization: 'Basic YWRtaW46MTIzNA==',
+        },
       })
-      .then(data => {
-        console.log('Form data submitted successfully:', data);
-        // Show the popup
+      .then((response) => {
+        console.log('Form data submitted successfully:', response.data);
         setShowPopup(true);
-        // Clear form fields after successful submission
         setFormData({
-          firstName: '',
-          lastName: '',
+          fname: '',
+          lname: '',
           gender: '',
           qualification: '',
           address: '',
@@ -119,7 +72,7 @@ function RegisterForm() {
           email: '',
           maritalStatus: '',
           dob: '',
-          class: '',
+          sclass: '',
           coreSubject: '',
           experience: '',
           grade: '',
@@ -129,31 +82,31 @@ function RegisterForm() {
         // Hide the popup after 10 seconds
         setTimeout(() => {
           setShowPopup(false);
-        }, 10000);
+        }, 8000);
       })
-      .catch(error => {
+      .catch((error) => {
         console.error('Error submitting form data:', error);
       });
+    } else {
+      setValidationErrors(errors);
+    }
   };
-  
+
   const isValidEmail = (email) => {
-    // Basic email validation regex
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
-  
+
   const isValidPhone = (phone) => {
-    // Phone number validation regex
     return /^[0-9]{10}$/.test(phone);
   };
 
   const validateForm = (data) => {
     let errors = {};
-    // Perform validation for each field
-    if (!data.firstName.trim()) {
-      errors.firstName = 'First name is required';
+    if (!data.fname.trim()) {
+      errors.fname = 'First name is required';
     }
-    if (!data.lastName.trim()) {
-      errors.lastName = 'Last name is required';
+    if (!data.lname.trim()) {
+      errors.lname = 'Last name is required';
     }
     if (!data.gender) {
       errors.gender = 'Gender is required';
@@ -178,8 +131,8 @@ function RegisterForm() {
     if (!data.dob) {
       errors.dob = 'Date of birth is required';
     }
-    if (!data.class) {
-      errors.class = 'Class is required';
+    if (!data.sclass) {
+      errors.sclass = 'Class is required';
     }
     if (!data.coreSubject.trim()) {
       errors.coreSubject = 'Core subject is required';
@@ -196,45 +149,39 @@ function RegisterForm() {
     return errors;
   };
 
-  const generateNextId = (lastId) => {
-    if (!lastId) return '0T1'; // If no last ID, start from 0T1
-    const numericPart = parseInt(lastId.substring(2)) + 1; // Extract numeric part and increment
-    return '0T' + numericPart.toString(); // Construct and return the next ID
-  };
-
   const closePopup = () => {
     setShowPopup(false);
   };
 
   return (
     <div>
-      <h2>Register Form</h2>
+      <h2>Add Teacher Form</h2>
       <form onSubmit={handleSubmit} className="form-container">
         <div>
           <label>
             First Name<span className="mandatory">*</span>:
             <input
               type="text"
-              name="firstName"
-              value={formData.firstName}
+              name="fname"
+              value={formData.fname}
               onChange={handleChange}
             />
-            {validationErrors.firstName && (
-              <span className="error">{validationErrors.firstName}</span>
+            {validationErrors.fname && (
+              <span className="error">{validationErrors.fname}</span>
             )}
           </label>
         </div>
         <div>
           <label>
-            Last Name:
+            Last Name<span className="mandatory">*</span>:
             <input
               type="text"
-              name="lastName"
-              value={formData.lastName}
+              name="lname"
+              value={formData.lname}
               onChange={handleChange}
             />
-            {validationErrors.lastName && (
-              <span className="error">{validationErrors.lastName}</span>
+            {validationErrors.lname && (
+              <span className="error">{validationErrors.lname}</span>
             )}
           </label>
         </div>
@@ -267,16 +214,18 @@ function RegisterForm() {
           </label>
         </div>
         <div>
-          <label>Address:</label>
-          <input
-            type="text"
-            name="address"
-            value={formData.address}
-            onChange={handleChange}
-          />
-          {validationErrors.address && (
-            <span className="error">{validationErrors.address}</span>
-          )}
+          <label>
+            Address<span className="mandatory">*</span>:
+            <input
+              type="text"
+              name="address"
+              value={formData.address}
+              onChange={handleChange}
+            />
+            {validationErrors.address && (
+              <span className="error">{validationErrors.address}</span>
+            )}
+          </label>
         </div>
         <div>
           <label>
@@ -293,22 +242,24 @@ function RegisterForm() {
           </label>
         </div>
         <div>
-          <label>Secondary Phone:</label>
-          <input
-            type="text"
-            name="secondaryPhone"
-            value={formData.secondaryPhone}
-            onChange={handleChange}
-          />
-          {validationErrors.secondaryPhone && (
-            <span className="error">{validationErrors.secondaryPhone}</span>
-          )}
+          <label>
+            Secondary Phone:
+            <input
+              type="text"
+              name="secondaryPhone"
+              value={formData.secondaryPhone}
+              onChange={handleChange}
+            />
+            {validationErrors.secondaryPhone && (
+              <span className="error">{validationErrors.secondaryPhone}</span>
+            )}
+          </label>
         </div>
         <div>
           <label>
             Email<span className="mandatory">*</span>:
             <input
-              type="email"
+              type="text"
               name="email"
               value={formData.email}
               onChange={handleChange}
@@ -319,45 +270,48 @@ function RegisterForm() {
           </label>
         </div>
         <div>
-          <label>Marital Status:</label>
-          <select
-            name="maritalStatus"
-            value={formData.maritalStatus}
-            onChange={handleChange}
-          >
-            <option value="">Select</option>
-            <option value="single">Single</option>
-            <option value="married">Married</option>
-            <option value="divorced">Divorced</option>
-            <option value="widowed">Widowed</option>
-          </select>
-          {validationErrors.maritalStatus && (
-            <span className="error">{validationErrors.maritalStatus}</span>
-          )}
+          <label>
+            Marital Status<span className="mandatory">*</span>:
+            <select
+              name="maritalStatus"
+              value={formData.maritalStatus}
+              onChange={handleChange}
+            >
+              <option value="">Select</option>
+              <option value="single">Single</option>
+              <option value="married">Married</option>
+            </select>
+            {validationErrors.maritalStatus && (
+              <span className="error">{validationErrors.maritalStatus}</span>
+            )}
+          </label>
         </div>
         <div>
-          <label>Date of Birth:</label>
-          <input
-            type="date"
-            name="dob"
-            value={formData.dob}
-            onChange={handleChange}
-          />
-          {validationErrors.dob && (
-            <span className="error">{validationErrors.dob}</span>
-          )}
+          <label>
+            Date of Birth<span className="mandatory">*</span>:
+            <input
+              type="date"
+              name="dob"
+              value={formData.dob}
+              onChange={handleChange}
+            />
+            {validationErrors.dob && (
+              <span className="error">{validationErrors.dob}</span>
+            )}
+          </label>
         </div>
         <div>
-          <label>Class:</label>
-          <input
-            type="text"
-            name="class"
-            value={formData.class}
-            onChange={handleChange}
-          />
-          {validationErrors.class && (
-            <span className="error">{validationErrors.class}</span>
-          )}
+          <label>
+Class            <input
+              type="text"
+              name="secondaryPhone"
+              value={formData.sclass}
+              onChange={handleChange}
+            />
+            {validationErrors.sclass && (
+              <span className="error">{validationErrors.class}</span>
+            )}
+          </label>
         </div>
         <div>
           <label>
@@ -406,23 +360,25 @@ function RegisterForm() {
           </label>
         </div>
         <div>
-          <label>Salary:</label>
-          <input
-            type="text"
-            name="salary"
-            value={formData.salary}
-            onChange={handleChange}
-          />
-          {validationErrors.salary && (
-            <span className="error">{validationErrors.salary}</span>
-          )}
+          <label>
+            Salary<span className="mandatory">*</span>:
+            <input
+              type="text"
+              name="salary"
+              value={formData.salary}
+              onChange={handleChange}
+            />
+            {validationErrors.salary && (
+              <span className="error">{validationErrors.salary}</span>
+            )}
+          </label>
         </div>
-        <div className="submit-button">
+        <div className="submit-button-container">
           <button type="submit">Submit</button>
         </div>
       </form>
-       {/* Popup */}
-       {showPopup && (
+      {/* Popup */}
+      {showPopup && (
         <div className="popup-container" onClick={closePopup}>
           <div className="popup">
             <div className="popup-content">
@@ -431,7 +387,6 @@ function RegisterForm() {
           </div>
         </div>
       )}
-
     </div>
   );
 }
